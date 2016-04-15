@@ -1,0 +1,54 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.work a{ 
+margin: 10px 3px 3px 10px;
+padding:9px 18px 9px 18px;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-size:17px;
+font-weight:normal;
+color:#FFF;
+border:#FFF solid 2px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.work a:hover{ 
+	background:#94d13f !important;
+	color:#FFF;
+	border:#94d13f solid 2px;
+}
+
+#faq a{ 
+	border: none !important;
+}
+
+#login a{ 
+margin: 10px 3px 3px 10px;
+padding:20px 20px 10px 2px;
+font-family:'Roboto', Arial, Helvetica, sans-serif;
+font-size:17px;
+font-weight:normal;
+color:#FFF;
+background: #94d13f url(../images/l-graphics.png) center left no-repeat;
+border-bottom:#7dbd35 solid 3px;
+border-radius:3px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.navbar-custom{
+	padding:0 !important;
+	background-color: #51a8b1;
+	width: 100%;
+	border-radius: 0 !important;
+	a{
+		color: #fefefe !important;
+	}
+}
+
+img.navbar-brand.logo{
+	width: 268px;
+	height: auto !important;
+	padding: 10px 0 0 20px !important;
+}

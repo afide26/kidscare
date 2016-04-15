@@ -1,0 +1,44 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container-fluid.about{
+	margin:0px;
+	padding:0px;
+	height:778px;
+	clear:both;
+	width:100%;
+}
+h1.main{ 
+	margin:0px ;
+	padding:85px 0px 0px 0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:55px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#1d6a72;
+	margin:0 auto;
+}
+
+h2.main{
+	margin:0px 0px 10px 0px ;
+	padding:0px;
+	font-family:'Open Sans';
+	font-size:23px;
+	font-weight:300;
+	text-transform:none;
+	color:#555555;
+	text-align:center;
+}
+
+h3.main{
+	margin:0px 40px 30px 40px ;
+	padding:0px;
+	font-family:'Open Sans';
+	font-size:19px;
+	font-weight:300;
+	text-transform:none;
+	color:#555555;
+	text-align:center;
+}
