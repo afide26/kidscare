@@ -3,14 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.container-fluid.about{
-	margin:0px;
+#mid { 
+	margin-top: -20px;
 	padding:0px;
+	background:#f2f2f2 image-url('mid-bg.jpg') center center no-repeat;
 	height:778px;
 	clear:both;
 	width:100%;
+	background-size: cover;
 }
-h1.main{ 
+
+/*VIDEO CSS*/
+
+#mid-main h1{ 
 	margin:0px ;
 	padding:85px 0px 0px 0px;
 	font-family:'Open Sans', Arial, Helvetica, sans-serif;
@@ -18,27 +23,158 @@ h1.main{
 	font-weight:700;
 	text-transform:uppercase;
 	color:#1d6a72;
-	margin:0 auto;
+	text-align:center;
 }
 
-h2.main{
+#mid-main h2{ 
 	margin:0px 0px 10px 0px ;
 	padding:0px;
 	font-family:'Open Sans';
 	font-size:23px;
-	font-weight:300;
+	font-weight:lighter;
 	text-transform:none;
 	color:#555555;
 	text-align:center;
 }
 
-h3.main{
+#mid-main h3{ 
 	margin:0px 40px 30px 40px ;
 	padding:0px;
 	font-family:'Open Sans';
 	font-size:19px;
-	font-weight:300;
+	font-weight:lighter;
 	text-transform:none;
 	color:#555555;
 	text-align:center;
 }
+
+#main-video { 
+	margin:0px;
+	padding:0px;
+	width:95%;
+}
+
+#video-left { 
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:47%;
+	text-align:center;
+}
+
+#video-left h1{ 
+	margin:0px 0px 0px 0px ;
+	padding:0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#000000;
+	text-align:center;
+}
+
+#video-left h2{ 
+	margin:0px 0px 0px 0px ;
+	padding:0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#000000;
+	text-align:center;
+}
+
+#video-left h3{ 
+	margin:0px 0px 0px 0px ;
+	padding:0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:28px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#000000;
+	text-align:center;
+}
+
+.arrow-video { 
+	margin:28px 0px 28px 0px;
+	padding:0px;
+	text-align:right;
+	display:block;
+}
+
+
+#video-right { 
+	margin:0px;
+	padding:0px;
+	float:right;
+	width:48%;
+	text-align:center;
+}
+
+.video-img { 
+	margin:0px;
+	padding:0px;
+	max-width:480px;
+	height:auto;
+	
+}
+
+.video-v { 
+	margin:0px;
+	padding:0px;
+	width:488px;
+	height:334px;
+}
+
+.sitting-box { 
+	margin:0px 10px 0px 10px;
+	padding:0px;
+	float:left;
+	width:23%;
+	text-align:center;
+}
+
+.sitting-box-t { 
+	margin:15px 0px 0px 0px;
+	padding:0px;
+	font-family:Open Sans, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:600;
+	text-transform:none;
+	color:#969696;
+	text-align:center;
+	line-height:22px;
+	
+}
+
+.sign a{ 
+margin:0px;
+padding:7px 42px 7px 42px;
+font-family:Open Sans, Arial, Helvetica, sans-serif;
+font-size:26px;
+font-weight:600;
+color:#FFF;
+background: #94d13f;
+border-bottom:#7dbd35 solid 3px;
+border-radius:3px;
+text-decoration:none;
+text-transform:none;
+}
+
+.sign a:hover{ 
+background: #7dbd35 ;
+color:#FFF;
+}
+
+.sign1 { 
+margin:40px 0px 0px 0px;
+padding:0px;
+display:none;
+}
+
+
+
+
+
+
+
