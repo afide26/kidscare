@@ -1,0 +1,233 @@
+#footer-link { 
+	margin:0px;
+	padding:0px;
+	width:100%;
+	border-top:#dde4e5 solid 2px;
+}
+
+#footer-main { 
+	margin:0px auto 0px auto;
+	padding:0px;
+	width:100%;
+	max-width:1024px;
+	border-bottom:#dde4e5 solid 1px;
+}
+
+.kids-care { 
+	margin:0px;
+	padding:0px;
+	width:33%;
+	float:left;
+	border-right:#dde4e5 solid 1px;
+}
+
+.kids-care-in { 
+	margin:35px 0px 20px 50px;
+	padding:0px;
+}
+
+.f-link {
+	margin:0px 0px 10px 0px ;
+	padding:0px;
+}
+
+.f-link a {
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#777777;
+	text-decoration:none;
+	text-transform:none;
+}
+
+.f-link a:hover {
+	color:#2b9eaa;
+	text-decoration:underline;
+}
+
+.kids-care-in h1{ 
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:600;
+	color:#86b94c;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.kids-care-in h2{ 
+	margin:0px 0px 8px 0px;
+	padding:0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:600;
+	color:#86b94c;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+
+.mail-info {
+	margin:0px 0px 10px 0px  ;
+	padding:0px 0px 0px 22px;
+	background:image_url('mail-info.jpg') center left no-repeat;
+}
+
+.mail-info a {
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#2b9eaa;
+	text-decoration:none;
+	text-transform:none;
+}
+
+.mail-info a:hover {
+	color:#828688;
+	text-decoration:underline;
+}
+
+
+.social { 
+	margin:0px;
+	padding:0px;
+	width:33%;
+	float:right;
+}
+
+.icon-f {
+	margin:0px 0px 10px 0px  ;
+	padding:5px 0px 5px 30px;
+	background:image_url('icon-facebook.jpg') center left no-repeat;
+}
+
+.icon-f  a {
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#828688;
+	text-decoration:none;
+	text-transform:none;
+}
+
+.icon-f  a:hover {
+	color:#828688;
+	text-decoration:underline;
+}
+
+.icon-t {
+	margin:0px 0px 10px 0px  ;
+	padding:5px 0px 5px 30px;
+	background:image_url('icon-twitter.jpg') center left no-repeat;
+}
+
+.icon-t  a {
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#828688;
+	text-decoration:none;
+	text-transform:none;
+}
+
+.icon-t  a:hover {
+	color:#828688;
+	text-decoration:underline;
+}
+
+.icon-g {
+	margin:0px 0px 10px 0px  ;
+	padding:5px 0px 5px 30px;
+	background:image_url('icon-gplus.jpg') center left no-repeat;
+}
+
+.icon-g  a {
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#828688;
+	text-decoration:none;
+	text-transform:none;
+}
+
+.icon-g  a:hover {
+	color:#828688;
+	text-decoration:underline;
+}
+
+
+#footer { 
+	margin:5px 0px 0px 0px;
+	padding:0px;
+	width:100%;
+	display:block;
+	}
+	
+#footer-mid1 { 
+	display:none;
+	}
+	
+#footer-bg-left { 
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:100%;
+	height:65px;
+	display:block;
+	background:image_url('footer-bg.png') top left no-repeat;
+}
+
+.bottom-logo { 
+	margin:0px 0px 0px 35px;
+	padding:0px;
+	width:54px;
+	height:54px;
+	float:left;
+	background:image_url('bottom-logo.png') top left no-repeat;
+}
+
+.copy { 
+	margin:14px 0px 0px 0px;
+	padding:0px;
+	float:left;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#7d8791;
+}
+
+#footer-mid { 
+	margin:0px auto;
+	padding:0px;
+	max-width:410px;
+	width:100%;
+	text-align:center;
+	}
+
+.footer-mid-blue { 
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#2b9eaa;
+	}
+
+#footer-bg-right { 
+	margin:0px;
+	padding:0px;
+	float:right;
+	width:100%;
+	height:65px;
+	display:block;
+	background:image_url('footer-bg.png') top right no-repeat;
+}
