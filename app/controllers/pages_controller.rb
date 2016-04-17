@@ -2,6 +2,9 @@ class PagesController < ApplicationController
   def about_us
   end
 
+  def kidscare
+  end
+
   def our_values
   end
 
