@@ -255,3 +255,132 @@ display:none;
 }
 
 
+#form { 
+	margin:0px auto 50px auto;
+	padding:0px;
+	width:100%;
+	max-width:470px;
+	border:#dedede solid 2px;
+	
+}
+
+#form-in { 
+	margin:20px;
+	padding:0px;
+}
+
+#form-in h1{ 
+	margin:0px 0px 30px 0px;
+	padding:0px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:21px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#2a838b;
+	text-align:center;
+}
+
+#form-in .tittext{ 
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:21px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#2a838b;
+	text-align:center;
+}
+
+.form-feild1 { 
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 0px 48px;
+	background:image_url('form-icon-name.jpg') top left no-repeat;
+	border:#d5d5d5 solid 1px;
+	border-radius:3px;
+	width:87%;
+	height:34px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-transform:none;
+	color:#555555;
+}
+
+.form-feild2 { 
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 0px 48px;
+	background:image_url('form-icon-email.jpg') top left no-repeat;
+	border:#d5d5d5 solid 1px;
+	border-radius:3px;
+	width:87%;
+	height:34px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-transform:none;
+	color:#555555;
+}
+
+.form-feild3 { 
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 0px 48px;
+	background:image_url('form-icon-password.jpg') top left no-repeat;
+	border:#d5d5d5 solid 1px;
+	border-radius:3px;
+	width:87%;
+	height:34px;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-transform:none;
+	color:#555555;
+}
+
+.fsSubmitButton
+{
+	font-family:Open Sans, Arial, Helvetica, sans-serif;
+	padding:5px 0 5px 0;
+	width:99%;
+	background-color: #94d13f;
+	font-size:26px !important;
+	font-weight:600 !important;
+	color: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #94d13f;
+	cursor: pointer;
+	box-shadow: 0 -2px 0 #7dbd35 inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.fsSubmitButton:hover
+{
+	background: #7dbd35 ;
+	color:#FFF;
+
+}
+
+.get { 
+	margin:0px;
+	padding:5px 0px 10px 0px;
+	text-align:center;
+	width:100%;
+}
+
+.get a{ 
+margin:0px;
+padding:5px 140px 5px 140px;
+font-family:'Open Sans', Arial, Helvetica, sans-serif;
+font-size:26px;
+font-weight:600;
+color:#FFF;
+background: #94d13f;
+border-bottom:#7dbd35 solid 3px;
+border-radius:3px;
+text-decoration:none;
+text-transform:none;
+
+}
+
+.get a:hover{ 
+background: #7dbd35 ;
+color:#FFF;
+}
