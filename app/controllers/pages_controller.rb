@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def kidscare
   end
 
+  def groups
+  end
+
   def our_values
   end
 

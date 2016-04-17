@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
   get 'works' => 'support#how_it_works'
 
-  get 'support/faq'
+  get "faqs" => 'support#faq'
 
   get 'support/contact'
 
+  get 'groups' => 'pages#groups'
+  
   get 'moreworks' => 'support#moreworks'
 
   root 'pages#about_us'
@@ -15,7 +17,7 @@ Rails.application.routes.draw do
 
   get 'privacy' =>'pages#privacy_policy'
 
-  get 'pages/terms_and_conditions'
+  get 'terms' => 'pages#terms_and_conditions'
 
-  get 'pages/news_and_media'
+  get 'media' => 'pages#news_and_media'
 end
